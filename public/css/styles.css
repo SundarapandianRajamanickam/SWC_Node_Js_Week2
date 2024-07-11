@@ -1,0 +1,39 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.question, .answer {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+.question-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.question-description, .answer-content {
+    margin-top: 0.5rem;
+}
